@@ -1,0 +1,18 @@
+name = "scAPA"
+uuid = "5901e1b6-9d57-4c3d-b132-0ee00fa39234"
+authors = "Jieyi Xiong <xiongjieyi@kuleuven.be>"
+version = "0.1.0"
+
+[deps]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+XAM = "d759349c-bcba-11e9-07c2-5b90f8f05f7c"
+GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+SortingLab = "562c1548-17b8-5b69-83cf-d8aebec229f5"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"

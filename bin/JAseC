@@ -1,0 +1,13 @@
+#!/usr/bin/env julia
+
+println("[J]unction-based [A]lternative [s]plicing [e]vent [C]ounter")
+println("A bioinformatics tool to analyze 10x Genome 5'-scRNAseq data.")
+println("Version 0.1")
+println("Initiating....")
+try
+    @eval using JAseC
+catch
+    include(joinpath(@__DIR__, "../src/JAseC.jl"))
+end
+JAseC.main()
+println("JAseC has finished.")
