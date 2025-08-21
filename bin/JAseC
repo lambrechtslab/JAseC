@@ -1,7 +1,7 @@
 #!/usr/bin/env julia
 
 println("[J]unction-based [A]lternative [s]plicing [e]vent [C]ounter")
-println("A bioinformatics tool to analyze 10x Genome 5'-scRNAseq data.")
+println("A bioinformatics tool to analyze 10x Genomics 5'-scRNAseq data.")
 println("Version 0.1")
 println("Initiating....")
 try
